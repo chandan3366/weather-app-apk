@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "WeatherNow",
+    "slug": "weathernow",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "weathernow",
+    "plugins": ["expo-router"],
+    "android": {"package": "com.example.weathernow"}
+  }
+}
