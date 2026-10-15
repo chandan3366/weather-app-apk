@@ -1,12 +1,23 @@
 {
   "expo": {
     "name": "WeatherNow",
-    "slug": "weathernow",
+    "slug": "chandan-kumar",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
     "scheme": "weathernow",
-    "plugins": ["expo-router"],
-    "android": {"package": "com.example.weathernow"}
+    "plugins": [
+      "expo-router"
+    ],
+    "android": {
+      "package": "com.example.weathernow"
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "bd478906-b7ff-4660-9edd-db55e9692f7e"
+      }
+    },
+    "owner": "chan-dans-team"
   }
 }
